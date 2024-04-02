@@ -9,7 +9,7 @@ public class Cowsay {
     //test
     String cmd = "/usr/games/cowsay '" + input + "'";
     System.out.println(cmd);
-    processBuilder.command("bash", "-c", cmd);
+    //processBuilder.command("bash", "-c", cmd);
 
     StringBuilder output = new StringBuilder();
 
